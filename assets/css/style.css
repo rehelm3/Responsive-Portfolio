@@ -1,0 +1,326 @@
+
+body {
+  background-image: url("../images/vintage-concrete.png");
+  margin: 0px;
+}
+
+header {
+  background-color: #ccc;
+  color: #666666
+}
+
+p {
+  padding: 5%;
+  margin: 0;
+}
+
+.main-content {
+  margin: 0 25px 50px 10%;
+  width: 50%;
+  float: left;
+  clear: both;
+  background-color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+  box-shadow: 1px 2px #999;
+}
+
+.portfolio-content {
+  margin: 0 25px 0 10%;
+  width: 50%;
+  float: left;
+  clear: both;
+  background-color: #fff;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  box-shadow: 1px 2px #999;
+}
+
+.contact-content {
+  margin: 0 25px 0 10%;
+  width: 50%;
+  float: left;
+  clear: both;
+  background-color: pink;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  box-shadow: 1px 2px #999;
+}
+.top-bar {
+  height: 137px;
+  width: 100%;
+  margin: 0 0 25px 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 2px #999;
+}
+.about {
+  float: left;
+  clear: both;
+}
+
+h1 {
+  float: left;
+  margin: 0 0 0 10%;
+  text-align: left;
+  background-color: pink;
+  color: black;
+  padding: 50px 50px;
+}
+
+h2 {
+  color: pink;
+}
+
+.gray-bar {
+  width: 50%;
+  height: 2px;
+  margin: 0 15% 15px 15%;
+  background-color: #999;
+}
+
+.gray-bar-main {
+  width: 98%;
+  height: 2px;
+  margin: 0 1% 15px 1%;
+  background-color: #999;
+}
+
+
+.main-nav {
+  float: right;
+  list-style: none;
+  padding: 100px 0;
+  margin: 0 10% 0 0;
+}
+
+.connect {
+  text-align: center;
+  float: left;
+  height: 150px;
+  width: 250px;
+  background-color: #fff;
+  box-shadow: 1px 2px #999;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+/* ---------FOOTER-------------*/
+
+footer {
+  margin: 0 0 0 0;
+  clear: both;
+  text-align: center;
+  background-color: #666666;
+  color: #fff;
+  padding: 0 0 25px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 8px;
+}
+
+#green-bar {
+  margin-bottom: 25px;
+  background-color: #4aaaa5;
+  height: 8px;
+  width: 100%;
+  float: left;
+}
+
+/* ---------IMAGES-------------*/
+
+.bob {
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+/* ---------ICONS-------------*/
+.icon-row {
+  text-align: center;
+}
+.social-icons {
+  list-style: none;
+  margin: 0 0 0 50px;
+  padding: 0;
+}
+
+.social-icons li {
+  padding: 5px;
+  float: left;
+}
+
+.main-nav li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+  float: left;
+  padding: 5px;
+}
+
+
+/* ---------FORM-------------*/
+.section-form {
+  display: block;
+  float: left;
+  width: 66%;
+  margin: 0 0;
+}
+.contact-form {
+  display: block;
+  width: 100%;
+  margin: 0 0;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type=checkbox] {
+  margin: 10px 5px 10px 0;
+}
+
+*:focus {outline: none;}
+
+
+
+@media only screen and (max-width: 980px) {
+  h1 {
+    font-size: 18;
+  }
+  .top-bar {
+    height: 137px;
+    width: 100%;
+    margin: 0 0 25px 0;
+    background-color: #fff;
+    box-shadow: 1px 2px #999;
+  }
+  .main-nav {
+  float: left;
+  list-style: none;
+  padding: 50px 0;
+  margin: 0;
+  }
+  .about {
+    float: left;
+    clear: both;
+  }
+  .connect {
+  width: 225px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  h1 {
+    width: 100%;
+    margin: 0;
+    padding: 25px 25px;
+    font-size: 14;
+    text-align: center;
+  }
+  .top-bar {
+    width: 100%;
+    height: 87px;
+  }
+  .main-nav {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background-color: #fff;
+    margin: 0 0 50px 0;
+    box-shadow: 1px 2px #999;
+  }
+  .main-content {
+    width: 80%;
+    margin: 0;
+    padding: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .portfolio-content {
+    width: 80%;
+    margin: 0;
+    padding: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .contact-content {
+    width: 80%;
+    margin: 0;
+    padding: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .connect {
+    width: 80%;
+    margin: 25px 10% 100px 10%;
+  }
+  .social-icons {
+    margin-left: 37%;
+    width: 168px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  h1 {
+    width: 100%;
+    margin: 0;
+    padding: 25px 25px;
+    font-size: 14;
+    text-align: center;
+  }
+  .top-bar {
+    width: 100%;
+    height: 87px;
+  }
+  .main-nav {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background-color: #fff;
+    margin: 0 0 50px 0;
+    box-shadow: 1px 2px #999;
+  }
+  .main-content {
+    width: 100%;
+    margin: 0;
+    padding: 25px;
+  }
+  .portfolio-content {
+    width: 100%;
+    margin: 0;
+    padding: 25px;
+  }
+  .contact-content {
+    width: 100%;
+    margin: 0;
+    padding: 25px;
+  }
+  .connect {
+    width: 100%;
+    margin: 25px 0 100px 0;
+  }
+  .social-icons {
+    margin-left: 37%;
+    width: 168px;
+  }
+}
